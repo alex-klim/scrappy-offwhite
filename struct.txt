@@ -1,0 +1,29 @@
+Product:
+site_product_id
+name
+
+categories
+description
+material
+url
+images
+site
+
+Price:
+site_product_id
+params={
+    price
+    color
+    size
+}
+stock_level
+currency
+date
+
+URLs:
+https://www.off---white.com/en/US/men/t/seasons/ss2018
+https://www.off---white.com/en/US/men/t/seasons/fw2017
+https://www.off---white.com/en/US/women/t/seasons/ss2018
+https://www.off---white.com/en/US/women/t/seasons/fw2017
+https://www.off---white.com/en/US/special-items
+
