@@ -1,0 +1,4 @@
+celery==4.1.0
+mongoengine==0.15.0
+redis==2.10.6
+Scrapy==1.4.0
