@@ -1,13 +1,9 @@
 import scrapy
 from ..items import Product, Price
+from ..utils import strippin
 
 
 base_url = 'https://www.off---white.com'
-
-def strippin(item):
-    if item:
-        return item.strip()
-    return ''
 
 class OffSpider(scrapy.Spider):
     name = 'offwhite'
@@ -75,5 +71,3 @@ class OffSpider(scrapy.Spider):
         yield product
         yield price
 
-    def okkie(self, response):
-        yield {"ok":"done"}
